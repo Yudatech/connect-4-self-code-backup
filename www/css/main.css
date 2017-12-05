@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/*start  welcome */
+body main .start {
+  margin-top: 20px;
+}
+body main .card {
+  height: 280px;
+}
+body main .fin_bild img {
+  border-style: none;
+  padding:0;
+  width: 23vw;
+  margin: auto;
+}
