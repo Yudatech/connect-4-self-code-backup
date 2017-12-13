@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+.background-main {
+  padding-top: 100px;
+  background-color: #18bc9c;
+}
+/*start  welcome */
+body main .start {
+  margin-top: 20px;
+}
+body main .fin_bild img {
+  border-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 8px auto;
+}
+/* color for player*/
+.color_chosen {
+  margin-top: 20px;
+}
+.color_chosen .btn {
+  border-radius: 4px !important;
+}
+.color_chosen .color {
+  border: 1px solid lightgray;
+  margin: 10px;
+}
+.color_chosen .play1color {
+  margin-left: 30px;
+}
+.color_chosen .play2color {
+  margin-left: 86px;
+}
+/* model */
+.modal-dialog {
+  max-width: 500px;
+  margin: 100px auto;
+}
