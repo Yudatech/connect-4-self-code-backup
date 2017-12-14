@@ -1,8 +1,18 @@
 class Board extends Base {
-    constructor(row, col) {
+    constructor() {
         super();
+        this.gameField = [];
+        for (let i = 0; i < 7; i++) {
+            this.gameField.push([]);
+            for(let j=0; j<6;j++){
+                this.gameField[i].push(-1);            
+            }
+        }
     }
 
+    render(el) {
+        super.render(el);
+    }
 
     scale() {
         let orgW = 1050, orgH = 900;
