@@ -5,7 +5,7 @@
   box-shadow: inset 1px -1px 0 rgba(0, 0, 0, 0.01), inset 2px -2px 0 rgba(0, 0, 0, 0.01), inset 3px -3px 0 rgba(0, 0, 0, 0.02), inset 4px -4px 0 rgba(0, 0, 0, 0.02), inset 5px -5px 0 rgba(0, 0, 0, 0.1), inset 6px -6px 0 rgba(0, 0, 0, 0.1), inset 1px -1px 0 #17a2b8, inset 2px -2px 0 #17a2b8, inset 3px -3px 0 #17a2b8, inset 4px -4px 0 #17a2b8, inset 5px -5px 0 #17a2b8, inset 6px -6px 0 #17a2b8;
 }
 .board-coin-shadow {
-  box-shadow: inset -5px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 575px) {
   .player_info .card {
@@ -88,23 +88,30 @@ main div.bullet-holder {
   height: 150px;
   float: left;
 }
-main div.bullet {
+main div.board-col {
   border-radius: 50%;
   width: 130px;
   height: 130px;
   margin: 10px;
+  float: left;
 }
-main div.empty {
+main div.board-col.empty {
   box-shadow: inset 1px -1px 0 rgba(0, 0, 0, 0.01), inset 2px -2px 0 rgba(0, 0, 0, 0.01), inset 3px -3px 0 rgba(0, 0, 0, 0.02), inset 4px -4px 0 rgba(0, 0, 0, 0.02), inset 5px -5px 0 rgba(0, 0, 0, 0.1), inset 6px -6px 0 rgba(0, 0, 0, 0.1), inset 1px -1px 0 #17a2b8, inset 2px -2px 0 #17a2b8, inset 3px -3px 0 #17a2b8, inset 4px -4px 0 #17a2b8, inset 5px -5px 0 #17a2b8, inset 6px -6px 0 #17a2b8;
   background: white;
 }
-main .red-player {
-  box-shadow: inset -5px 5px 0 rgba(0, 0, 0, 0.3);
-  background-color: #dc3545;
+main div.board-col.player1 {
+  background: #dc3545;
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
 }
-main .yellow-player {
-  box-shadow: inset -5px 5px 0 rgba(0, 0, 0, 0.3);
-  background-color: #ffc107;
+main div.board-col.player1-hover {
+  background: #dd5e6a;
+}
+main div.board-col.player2 {
+  background: #fbde4b;
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
+}
+main div.board-col.player2-hover {
+  background: #e9db94;
 }
 .highscore_page {
   background-color: #18bc9c !important;
