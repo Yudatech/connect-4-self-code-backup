@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+/*start  welcome */
+body main .start {
+  margin-top: 20px;
+}
+body main .fin_bild img {
+  border-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 8px auto;
+}
+/* color for player*/
+.color_chosen {
+  margin-top: 15px;
+}
+.color_chosen .btn {
+  border-radius: 4px !important;
+}
+.color_chosen .color {
+  border: 1px solid lightgray;
+  margin: 10px;
+}
+.rulesModal {
+  text-color: blue;
+}
+main div.board {
+  background: blue;
+  border-radius: 10px;
+  padding: 10px 5px 10px 5px;
+}
+main div.bullet {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+main div.empty {
+  background: white;
+}
+main div.board-footer {
+  background: blue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 10px;
+  width: 10%;
+}
+main .winnermodals #exampleModalLabel {
+  text-align: 100px;
+}
+footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  margin-top: 30px;
+}

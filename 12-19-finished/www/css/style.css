@@ -1,0 +1,182 @@
+.board-game-shadow {
+  box-shadow: 1px -1px 0 rgba(0, 0, 0, 0.01), 2px -2px 0 rgba(0, 0, 0, 0.01), 3px -3px 0 rgba(0, 0, 0, 0.02), 4px -4px 0 rgba(0, 0, 0, 0.02), 5px -5px 0 rgba(0, 0, 0, 0.1), 6px -6px 0 rgba(0, 0, 0, 0.1), 1px -1px 0 #17a2b8, 2px -2px 0 #17a2b8, 3px -3px 0 #17a2b8, 4px -4px 0 #17a2b8, 5px -5px 0 #17a2b8, 6px -6px 0 #17a2b8;
+}
+.board-game-shadow-inset {
+  box-shadow: inset 1px -1px 0 rgba(0, 0, 0, 0.01), inset 2px -2px 0 rgba(0, 0, 0, 0.01), inset 3px -3px 0 rgba(0, 0, 0, 0.02), inset 4px -4px 0 rgba(0, 0, 0, 0.02), inset 5px -5px 0 rgba(0, 0, 0, 0.1), inset 6px -6px 0 rgba(0, 0, 0, 0.1), inset 1px -1px 0 #17a2b8, inset 2px -2px 0 #17a2b8, inset 3px -3px 0 #17a2b8, inset 4px -4px 0 #17a2b8, inset 5px -5px 0 #17a2b8, inset 6px -6px 0 #17a2b8;
+}
+.board-coin-shadow {
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 575px) {
+  .player_info .card {
+    margin-bottom: 15px;
+  }
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 50px;
+}
+main {
+  flex-grow: 1;
+}
+.background-main {
+  padding-top: 100px;
+}
+/*start  welcome */
+body main .start {
+  margin-top: 20px;
+}
+body main .fin_bild img {
+  border-style: none;
+  padding: 0;
+  width: 120%;
+  margin: -20px auto;
+}
+/* color for player*/
+.color_chosen {
+  margin-top: 20px;
+}
+.color_chosen .btn {
+  border-radius: 4px !important;
+}
+.color_chosen .btn.active {
+  border: 5px gold solid;
+}
+.color_chosen .color {
+  border: 1px solid lightgray;
+  margin: 10px;
+}
+.color_chosen .play1color {
+  margin-left: 30px;
+}
+.color_chosen .play2color {
+  margin-left: 86px;
+}
+/* model */
+.modal-dialog {
+  max-width: 500px;
+  margin: 140px auto;
+}
+header .logo {
+  width: 200px;
+}
+header .navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1234565;
+}
+header .nav {
+  font-size: 22px;
+}
+main div.board-holder {
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 960px;
+  box-shadow: 1px -1px 0 rgba(0, 0, 0, 0.01), 2px -2px 0 rgba(0, 0, 0, 0.01), 3px -3px 0 rgba(0, 0, 0, 0.02), 4px -4px 0 rgba(0, 0, 0, 0.02), 5px -5px 0 rgba(0, 0, 0, 0.1), 6px -6px 0 rgba(0, 0, 0, 0.1), 1px -1px 0 #17a2b8, 2px -2px 0 #17a2b8, 3px -3px 0 #17a2b8, 4px -4px 0 #17a2b8, 5px -5px 0 #17a2b8, 6px -6px 0 #17a2b8;
+}
+main div.board {
+  width: 1050px;
+  height: 900px;
+  transform-origin: 0 0;
+}
+main div.bullet-holder {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+main .spela-btn {
+  font-size: 5rem;
+  padding: 10% 20%;
+  border-radius: 10px;
+  align-self: center;
+}
+main div.board-col {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+  float: left;
+}
+main div.board-col.empty {
+  box-shadow: inset 1px -1px 0 rgba(0, 0, 0, 0.01), inset 2px -2px 0 rgba(0, 0, 0, 0.01), inset 3px -3px 0 rgba(0, 0, 0, 0.02), inset 4px -4px 0 rgba(0, 0, 0, 0.02), inset 5px -5px 0 rgba(0, 0, 0, 0.1), inset 6px -6px 0 rgba(0, 0, 0, 0.1), inset 1px -1px 0 #17a2b8, inset 2px -2px 0 #17a2b8, inset 3px -3px 0 #17a2b8, inset 4px -4px 0 #17a2b8, inset 5px -5px 0 #17a2b8, inset 6px -6px 0 #17a2b8;
+  background: white;
+}
+main div.board-col.player1 {
+  background: #dc3545;
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
+}
+main div.board-col.player1-hover {
+  background: #dd5e6a;
+}
+main div.board-col.player2 {
+  background: #fbde4b;
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
+}
+main div.board-col.player2-hover {
+  background: #e9db94;
+}
+main .player1 {
+  background: #dc3545;
+}
+main .player2 {
+  background: #fbde4b;
+}
+main .current-player-coin {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: inset 5px -5px 0 rgba(0, 0, 0, 0.3);
+  margin: -13px 10px;
+}
+main .current-player {
+  text-transform: uppercase;
+  color: gray;
+  border: 0;
+}
+main .current-player h2 {
+  text-align: center;
+}
+main #enteringNameModal h5,
+main #winner-modal h5 {
+  color: #333;
+}
+main #enteringNameModal .modul-header,
+main #winner-modal .modul-header {
+  border-bottom: 0;
+}
+main #enteringNameModal .player_info,
+main #winner-modal .player_info,
+main #enteringNameModal .winnermodals,
+main #winner-modal .winnermodals {
+  color: darkgray;
+}
+main #enteringNameModal .player_info .card-body,
+main #winner-modal .player_info .card-body,
+main #enteringNameModal .winnermodals .card-body,
+main #winner-modal .winnermodals .card-body {
+  padding: 0;
+}
+main #enteringNameModal .player_info .card,
+main #winner-modal .player_info .card,
+main #enteringNameModal .winnermodals .card,
+main #winner-modal .winnermodals .card {
+  border: 0;
+}
+.highscore_page {
+  background-color: #18bc9c !important;
+}
+.highscore_page h3 {
+  color: white;
+}
+.highscore_page .table {
+  color: white !important;
+}
+footer {
+  background-color: #17a2b8;
+  color: #fff;
+}

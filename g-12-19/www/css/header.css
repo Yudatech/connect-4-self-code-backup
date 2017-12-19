@@ -1,0 +1,13 @@
+header .logo {
+  width: 200px;
+}
+header .navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1234565;
+}
+header .nav {
+  font-size: 22px;
+}

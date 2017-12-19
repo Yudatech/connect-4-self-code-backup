@@ -1,0 +1,32 @@
+{
+  "app": [
+    {
+      "name": "player 2",
+      "score": 22
+    },
+    {
+      "name": "player 2",
+      "score": 26
+    },
+    {
+      "name": "player 1",
+      "score": 21
+    },
+    {
+      "name": "player 1",
+      "score": 21
+    },
+    {
+      "name": "player 1",
+      "score": 15
+    },
+    {
+      "name": "player 1",
+      "score": 23
+    },
+    {
+      "name": "player 1",
+      "score": 7
+    }
+  ]
+}
